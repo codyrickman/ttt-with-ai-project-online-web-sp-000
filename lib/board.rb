@@ -4,6 +4,7 @@ class Board
     @board = ["", "", "", "", "", "", "", "", ""]
   end
   def cells
+    @board
   end
   def reset!
     @board = ["", "", "", "", "", "", "", "", ""]
