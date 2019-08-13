@@ -1,11 +1,11 @@
 class board
   attr_accessor :board
-  def initialize
+  def initialize ()
     @board = ["", "", "", "", "", "", "", "", ""]
   end
-  def cells
+  def cells ()
   end
-  def reset!
+  def reset! ()
     @board = ["", "", "", "", "", "", "", "", ""]
   end
 end
